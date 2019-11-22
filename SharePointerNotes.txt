@@ -1,0 +1,4 @@
+Releasing a shared_ptr can be done in the following ways:
+(1) Most commonly: via going out of scope, meaning calling the destructor automatically;
+(2) Through assignment of another shared_ptr
+(3) Through calling reset() (more on this later).
